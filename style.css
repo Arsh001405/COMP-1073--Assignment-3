@@ -21,3 +21,36 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+button {
+    padding: 10px 15px;
+    background: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
+
+.weather-card {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+
+.weather-card img {
+    width: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
